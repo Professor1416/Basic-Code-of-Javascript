@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	//Switch String:- In Switch String we use words and numbers in "duble quotes".
+	
+var a = 30;
+var b = 20;
+var c;
+var string = "six"; //which case you want to execute 'Enter' case.
+
+switch(string)
+{
+	case "one": //the case label must be end with colon(:)
+	{
+		c = a + b;
+		document.write("the add of a + b is:"+c+"<br>");
+		break; //It's necessary to use break after each block.
+	}
+
+	case "two": //case label must be unique.
+	{
+		c = a - b;
+		document.write("the subtraction a - b is:"+c+"<br>");//"<br>" use for linebreak.
+		break; //if you don't use it, then all cases executed.
+	}
+
+	case "three":
+	{
+		c = a / b;
+		document.write("the division a / b is:"+c+"<br>");
+		break;
+	}
+
+	case "four":
+	{
+		c = a * b;
+		document.write("the multiplication a * b is:"+c+"<br>");
+		break;
+	}
+
+	case "five":
+	{
+		c = a % b;
+		document.write("the modulos a % b is:"+c+"<br>");
+		break;
+	}
+
+	default:  //If none of the case label values matches to the value of the expression, then default part statement will be executed.
+	{
+		document.write("plz enter valid value");
+		break;
+
+	}
+
+
+}
+
+//Output
+/*
+a = 30; b = 20;
+
+case +: c = a + b;
+the value of a+b is:50
+
+case -: c = a - b;
+the value of a-b is:10
+
+case /: c = a / b;
+the value of a/b is:1
+
+case *: c = a * b;
+the value of a*b is:600
+
+case %: c = a % b;
+the value of a%b is:10
+*/
+
+
+
+
+
+                              //Prashant Dasnur
+</script>
+</body>
+</html>

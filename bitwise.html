@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	//Bitwise Operator
+
+var a = 50; //00110010 in binary.
+var b = 30; //00011110 in binary.
+var c = 0;
+var d = 0;
+var e = 0;
+var f = 0;
+var g = 0;
+var h = 0;
+
+//Bitwise AND
+c = a & b; // 00110010 & 00011110 = 00010010 i.e means is '18'.
+document.write("the value of (a & b):"+c+"<br>"); // <br> use for linebreake
+
+//Bitwise OR
+d = a | b; // 00110010 | 00011110 = 00111110 i.e means is '62'.
+document.write("the value of (a | b):"+d+"<br>"); // document.write() use for print line.
+
+//Bitwise Exclusive XOR
+e = a ^ b;  // 00110010 ^ 00011110 = 00101100 i.e means is '44'.
+document.write("the value of (a ^ b):"+e+"<br>");// +e+ is used to indicate which value should be print.
+
+//Bitwise Complement
+f = ~a; // -(50+1)= i.e means is '-51'.
+document.write("the value of (~a):"+f+"<br>");
+
+//Bitwise Shift Left
+g = a << 2; //50=110010 << 2 :- 11001000 i.e means is '200'. 
+		  //Shift with 2 zero to left side.
+document.write("the value of (a << 2):"+g+"<br>");
+
+//Bitwise Shift Right
+h = a >> 2; // 50=110010 >> 2 :-  001100 i.e means os '12'. 
+		  //Shift with 2 zero to right side.
+document.write("the value of (a >> 2):"+h+"<br>");
+
+
+
+
+//Output
+/*
+The value of AND is:- 18
+The value of OR is:- 62
+The value of Exclusive OR is:- 44
+The value of Complement is:- -51
+The value of Shift Left is:- 200
+The value of Shift Right is:- 12
+*/
+
+
+
+
+
+												//Prashant Dasnur
+
+
+</script>
+</body>
+</html>

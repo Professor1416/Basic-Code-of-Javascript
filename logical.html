@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		//Logical Operator
+		var a = 50;
+		var b = 30;
+
+		//Logical AND
+       //we use also  Logical NOT
+		if (!((a > b) && (a == b))) // !(a=50 > b=30) is False && (a=50 != b=30) is True; Therefore this statement is False.
+                                   // when both statement are True then result will be True.
+                                  // '!'not is True statement consider False and False statement consider to True.
+		{
+			document.write("<br> (!((a > b) && (a == b))) <br>this statement is true <br>");
+		} else {
+			document.write("<br>(!((a > b) && (a == b)))<br>this statement is false <br>"); // document.write() use for print line.
+		}
+
+		//Logical OR
+		if ((a == b) || (a != b)) {  // (a=50 < b=30) is False || (a=50 != b=30) is True; therefore this statement is True.
+                                    //if one(or both) statement is True then result will be True, Otherwise it returns False.
+			document.write("<br> ((a == b) || (a != b)) <br> this statement is true <br>");
+		} else {
+			document.write("<br> ((a == b) || (a != b)) <br> this statement is false <br>"); //"<br>" use for linebreak.
+		}
+
+
+
+
+
+//Output
+/*
+//Logical AND
+this statement is true
+
+//Logical OR
+this statement is true
+*/
+
+
+                                                    //Prashant Dasnur		
+	</script>
+
+</body>
+</html>
